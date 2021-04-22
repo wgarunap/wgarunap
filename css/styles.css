@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700;900&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+*/
+
+*{
+	
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+/* @media only screen and (max-width: 600px) {
+	html {
+	  font-size: 50%;
+	}
+  }
+  @media only screen and (min-device-width : 769px) and (max-device-width : 1024px) {
+	html {
+	  font-size: 55%;
+	}
+  } */
+  
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,.navbar{
+    margin: 0;
+    padding: 0;
+
+}
+img{
+	vertical-align: middle;
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+
+
+ul li{
+    margin-left: 1rem;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+   
+    font-weight: 400;
+    line-height: 1.7;
+   
+    font-size: 1.6rem;
+
+    background: #E5E5E5;
+	
+    
+}
+.dot{
+    vertical-align: center;
+    font-size: 4rem;
+}
+/* Common end */
+
+
+
+
+.left-bg{
+    background-color: #addfef;
+    height: 100%;
+    /* margin-left: 1.3rem; */
+    padding: 0 1.5rem;
+}
+.cv-container{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/*Styling Left Part of CV */
+
+.name{
+    padding: 0;
+    padding-bottom: 1.5rem;
+    line-height: 3rem;
+}
+.name h1{
+    padding: 0px;
+    
+    letter-spacing: 0.4rem;
+    
+}
+.name h1 span{
+    font-weight: 600;
+   margin: 1rem;
+    
+    
+}
+.contact{
+    margin: 4rem 0px;
+    margin-bottom: 5rem;
+}
+.contact p span{
+    /* text-align: right; */
+    text-align: left;
+    /* float: right; */
+}
+
+.award{
+    margin-top: 5rem;
+}
+.award strong{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+}
+
+.container{
+    background-color: #fff;
+}
+.mrgn{
+    padding: 0%;
+}
+.bgw{
+    background-color: #fff;
+    /* padding: 0px 5rem; */
+    margin-left: 5rem;
+}
+.padding-p{
+     padding: 1.8rem 0px; 
+}
+.award-list li{
+    padding: 1rem 0px;
+}
+.linkdin-link{
+    font-size: 1.4rem;
+}
+
+/* Styling for Right side of CV */
+.right-bg{
+    background: #fff;
+    padding-right: 0%;
+    
+}
+h1{
+    color: #0774a3;
+    padding: 1.5rem 0;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 900;
+}
+.list-item li{
+    color: #0774a3;
+    margin-left: 5.5rem;
+}
+.technology{
+    padding-top: 2.2rem;
+}
+.technology-color{
+    color: #0774a3;
+    padding: 2rem 0px;
+}
+.pad-left,.pad-left li{
+    padding-left: 2rem;
+}
+.professional-list li,.list-work-exp li{
+    margin-left: 2rem;
+}
+.list-work-exp li{
+    padding: 0.8rem;
+}
+
+.academic h2 span{
+    font-weight: 400;
+}
+.academic h2{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    font-size: 2.6rem;
+    /* padding-bottom: 0.5rem; */
+}
+.reference a{
+    padding-right: 6rem;
+}
+.technology-color p{
+    line-height: 1.7;
+}
